@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vihh Trancista</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="topbar">
+    <img id="logo" src="logovihh.png" alt="logo">
+    <div class="social">
+      <a  href="https://www.instagram.com/vihh.trancista_" target="_blank"><img class="insta" src="insta.jpg" alt="insta"></a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h2>Olá! Sou a Vitória,<br>sua trancista particular!</h2>
+    <p>Especialista em nagôs, coroas e boxeadora, com cuidado, estilo e identidade.</p>
+    <a class="btn" href="#agendamento">
+      Agendar pelo WhatsApp
+    </a>
+  </section>
+
+  <!-- Catálogo -->
+  <section class="catalogo">
+    <h1>Catálogo de Valores</h1>
+
+    <div class="cards">
+
+      <!-- Nagôs -->
+      <div class="card">
+        <h3>Nagôs Lateral (Mão de obra)</h3>
+        <ul>
+          <li>2 Tranças — R$ 28</li>
+          <li>3 Tranças — R$ 30</li>
+          <li>4 Tranças — R$ 33</li>
+          <li>5+Tranças  — R$ 38</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Nagôs Topo(Mão de obra)</h3>
+        <ul>
+          <li>4 Tranças — R$ 42</li>
+          <li>5+ Tranças — R$ 45</li>
+        </ul>
+      </div>
+
+      <!-- Coroas -->
+      <div class="card">
+        <h3>Nagô Coroa (Mão de obra)</h3>
+        <ul>
+          <li>9 tranças — R$ 55</li>
+          <li>10+ tranças — R$ 60</li>
+        </ul>
+      </div>
+
+      <!-- Cabelo Todo -->
+      <div class="card">
+        <h3>Cabelo Todo (Média- Mão de obra)</h3>
+        <ul>
+          <li>Masculina — R$ 80</li>
+          <li>Feminina — R$ 80</li>
+          <li>Boxeadora — R$ 70</li>
+        </ul>
+      </div>
+
+      <!-- Acessórios -->
+      <div class="card">
+        <h3>Acessórios (Cada)</h3>
+        <ul>
+          <li>Miçanga — R$ 0,25</li>
+          <li>Argola — R$ 0,50</li>
+          <li>Anel — R$ 1,00</li>
+          <li>Fio de cetim — R$ 2,00</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+   <!-- Avisos -->
+  <section class="avisos card">
+    <h2>Avisos Importantes</h2>
+    <ul> 
+      <li>Apenas nagôs e boxeadora sem jumbo.</li>
+      <li>O preço pode aumentar dependendo da quantidade de tranças.</li>
+      <li>Pagamento via Pix ou cédula.</li>
+      <li>Preparação: Compareça com o cabelo limpo, desembaraçado e com o mínimo possível de creme/óleo. </li>
+      <li>Sinal de Reserva: O agendamento é confirmado mediante pagamento de um sinal, que será abatido do valor total. </li>
+      <li>Em caso de falta sem aviso prévio, o valor não é reembolsável. </li>
+      <li>Tolerância: Temos uma tolerância de atraso de 20 minutos. Após 30 minutos, o horário poderá ser cancelado para não atrasar os próximos clientes. </li>
+      <li>Durabilidade: Lembre-se que a nagô é um penteado de curta duração (média de 7 a 10 dias). Recomendamos agendar próximo ao seu evento.</li>
+    </ul>
+  </section>
+
+  <!-- FORMULÁRIO -->
+<section id="agendamento" class="agendamento">
+  <h2>Agendamento</h2>
+
+  <form id="formAgendamento">
+    <input type="text" id="nome" placeholder="Seu nome" required>
+
+    <input type="date" id="data" required>
+
+    <select id="servico" required>
+      <option value="">Escolha o serviço</option>
+      <option>Nagô Topo</option>
+      <option>Nagô Lateral</option>
+      <option>Nagô Coroa</option>
+      <option>Nagô No Cabelo Todo </option>
+    </select>
+
+    <textarea id="mensagem" placeholder="Observações"></textarea>
+
+    <button type="submit" class="btn">
+      Enviar para WhatsApp
+    </button>
+  </form>
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 • Vitória Trancista</p>
+    <a href="https://www.instagram.com/vihh.trancista_" target="_blank">
+      @vihh.trancista_
+    </a>
+  </footer>
+<script src="script.js"></script>
+</body>
+
+</html>
